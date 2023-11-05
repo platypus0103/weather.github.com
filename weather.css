@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: darkcyan;
+}
+.base{
+    margin: 20px auto;
+    padding: 20px;
+    width: 400px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0.2);
+}
+h1{
+    font: 900 40px/1.9em "Noto Sans TC";
+    color: darkcyan;
+    text-align: center;
+    letter-spacing: 2px;
+}
+#choseloaction{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #eee;
+    border-radius: 99em;
+}
+#name{
+    font: 500 50px/1.9em "Noto Sans TC";
+    color: darkcyan;
+    text-align: center;
+    letter-spacing: 2px;
+}
+#img{
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+}
+ul{
+    display: grid;
+    padding: 10ppx;
+    list-style: none;
+    background: #ededed;
+    border-radius: 20px;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
