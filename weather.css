@@ -4,15 +4,16 @@
     box-sizing: border-box;
 }
 body{
-    background: darkcyan;
+    background: rgb(255, 255, 255);
 }
 .base{
     margin: 20px auto;
     padding: 20px;
     width: 400px;
-    background: white;
+    color: #ededed;
+    background: darkcyan;
     border-radius: 20px;
-    box-shadow: 0 20px 30px rgba(0, 0, 0.2);
+    box-shadow: 0 20px 30px rgb(0, 0, 0);
 }
 h1{
     font: 900 40px/1.9em "Noto Sans TC";
@@ -30,7 +31,7 @@ h1{
 }
 #name{
     font: 500 50px/1.9em "Noto Sans TC";
-    color: darkcyan;
+    color: rgb(255, 255, 255);
     text-align: center;
     letter-spacing: 2px;
 }
@@ -43,7 +44,7 @@ ul{
     display: grid;
     padding: 10ppx;
     list-style: none;
-    background: #ededed;
+    background: darkcyan;
     border-radius: 20px;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
